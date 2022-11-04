@@ -16,6 +16,6 @@ class Program
         Console.Write("\nEnter temperature in Fahrenheit: ");
         fahrenheit = Convert.ToDouble(Console.ReadLine());
         celsius = ((fahrenheit - 32) * 5) / 9;
-        Console.WriteLine("\n" + fahrenheit + "℉ is "  + celsius.ToString("0.0") + "℃.");
+        Console.WriteLine("\n" + fahrenheit + "℉ is " + celsius.ToString("0.0") + "℃.");
     }
 }
